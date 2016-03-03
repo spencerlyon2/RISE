@@ -275,11 +275,13 @@ function fixCellHeight(){
 
 function setupKeys(mode){
   if (mode === 'reveal_mode') {
-    IPython.keyboard_manager.command_shortcuts.set_shortcut("shift-enter", "ipython.execute-in-place")
-    IPython.keyboard_manager.edit_shortcuts.set_shortcut("shift-enter", "ipython.execute-in-place")
+      null;
+    // IPython.keyboard_manager.command_shortcuts.set_shortcut("shift-enter", "ipython.execute-in-place")
+    // IPython.keyboard_manager.edit_shortcuts.set_shortcut("shift-enter", "ipython.execute-in-place")
   } else if (mode === 'notebook_mode') {
-    IPython.keyboard_manager.command_shortcuts.set_shortcut("shift-enter", "ipython.run-select-next")
-    IPython.keyboard_manager.edit_shortcuts.set_shortcut("shift-enter", "ipython.run-select-next")
+      null;
+    // IPython.keyboard_manager.command_shortcuts.set_shortcut("shift-enter", "ipython.run-select-next")
+    // IPython.keyboard_manager.edit_shortcuts.set_shortcut("shift-enter", "ipython.run-select-next")
   }
 }
 
