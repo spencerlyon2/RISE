@@ -25,11 +25,11 @@ var default_config = {
     width: 1140,
     height: 855, // 4:3 ratio
     minScale: 1.0, //we need this for codemirror to work right
-    theme: 'simple',
-    transition: 'linear',
+    theme: 'white',
+    transition: 'fade',
     slideNumber: true,
-    start_slideshow_at: 'beginning',
-    scroll: false,
+    start_slideshow_at: 'selected',
+    scroll: true,
 };
 
 config_section.load();
